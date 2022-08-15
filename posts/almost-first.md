@@ -1,5 +1,5 @@
 ---
-title: Second news item
+title: Second blog post
 layout: post
 tags: posts
 date: 2021-07-11

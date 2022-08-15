@@ -12,7 +12,7 @@ anchors:
     icon: fa-bullhorn # consider: fa-calendar, fa-bullhorn, fa-th (grid)
   - text: locals
     icon: fa-hands-helping
-  - text: news
+  - text: blog
     icon-namespace: fab
     icon: fa-microblog
   - text: donate
@@ -160,7 +160,7 @@ homelessness every day in this country
 <!-- </table> -->
 <!-- </div> -->
 
-## News
+## Blog
 
 {% assign posts = collections.posts | reverse %}
 {% for post in posts %}
