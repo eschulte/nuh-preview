@@ -164,7 +164,7 @@ homelessness every day in this country
 
 {% assign posts = collections.posts | reverse %}
 {% for post in posts %}
-- [{{ post.data.title }}]({{ post.url }}) *(written {{ post.date | fixDate | date: "%b %d, %Y"}})*
+- [{{ post.data.title }}]({{ post.url | url }}) *(written {{ post.date | fixDate | date: "%b %d, %Y"}})*
 {% endfor %}
 
 ## Get Involved
